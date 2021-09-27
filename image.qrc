@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/startGame"/>
+    <qresource prefix="/startGame"/>
+    <qresource prefix="/image">
+        <file>gaitubao_leopard_png.png</file>
+    </qresource>
+</RCC>
