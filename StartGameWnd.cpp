@@ -9,7 +9,7 @@ StartGameWnd::StartGameWnd(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QImage img = QImage(":/image/gaitubao_leopard_png.png");
+    QImage img = QImage(":/source/startBackGround.png");
     QPixmap pixmap = QPixmap::fromImage(img);
     pixmap.scaled(QSize(ui->label->width(),ui->label->height()),Qt::KeepAspectRatioByExpanding);
     ui->label->setPixmap(pixmap);
